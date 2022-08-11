@@ -5,4 +5,4 @@ applications:
   stack: cflinuxfs3
   path: target/first-spring-boot-example.war
   buildpacks:
-  - java_buildpack_offline
+  - java_buildpack
