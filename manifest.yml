@@ -1,0 +1,6 @@
+applications:
+- memory: 1024M
+  instances: 1
+  stack: cflinuxfs3
+  buildpacks:
+  - java_buildpack_offline
