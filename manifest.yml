@@ -1,6 +1,8 @@
 applications:
-- memory: 1024M
+- name: TestJava
+  memory: 1024M
   instances: 1
   stack: cflinuxfs3
+  path: target/first-spring-boot-example.war
   buildpacks:
   - java_buildpack_offline
